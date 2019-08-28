@@ -19,8 +19,9 @@ requirements:
     - pip
   run:
     - python
-    - requests >=2.18.0,<3.0.0dev
     - six
+  run_constrained:
+    - requests >=2.18.0,<3.0.0dev
 
 test:
   imports:
