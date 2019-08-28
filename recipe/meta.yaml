@@ -1,4 +1,4 @@
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 
 package:
   name: google-resumable-media
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/g/google-resumable-media/google-resumable-media-{{ version }}.tar.gz
-  sha256: 3e38923493ca0d7de0ad91c31acfefc393c78586db89364e91cb4f11990e51ba
+  sha256: 49493999cf046b5a02f648e201f0c2fc718c5969c53326b4d2c0693b01bdc8bb
 
 build:
   number: 0
@@ -20,6 +20,8 @@ requirements:
   run:
     - python
     - six
+  run_constrained:
+    - requests >=2.18.0,<3.0.0dev
 
 test:
   imports:
