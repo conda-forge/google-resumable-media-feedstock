@@ -9,7 +9,7 @@ source:
   sha256: 2a8fd188afe1cbfd5998bf20602f76b0336aa892de88fe842a806b9a3ed78d2a
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -29,10 +29,10 @@ test:
     - google.resumable_media
 
 about:
-  home: https://github.com/GoogleCloudPlatform/google-resumable-media-python
+  home: https://github.com/googleapis/google-resumable-media-python
   summary: Utilities for Google Media Downloads and Resumable Uploads
-  doc_url: https://googlecloudplatform.github.io/google-resumable-media-python
-  dev_url: https://github.com/GoogleCloudPlatform/google-resumable-media-python
+  doc_url: https://googleapis.github.io/google-resumable-media-python/latest/
+  dev_url: https://github.com/googleapis/google-resumable-media-python
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
@@ -40,5 +40,6 @@ about:
 extra:
   recipe-maintainers:
     - johanneskoester
+    - leahecole
     - parthea
     - tswast
