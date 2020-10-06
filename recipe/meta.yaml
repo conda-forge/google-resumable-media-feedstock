@@ -23,6 +23,7 @@ requirements:
     - google-crc32c >=1.0,<2.0dev
   run_constrained:
     - requests >=2.18.0,<3.0.0dev
+    - aiohttp >=3.6.2,<4.0.0dev
 
 test:
   requires:
