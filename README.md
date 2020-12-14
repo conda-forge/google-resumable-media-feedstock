@@ -5,11 +5,13 @@ Home: https://github.com/googleapis/google-resumable-media-python
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-resumable-media-feedstock/blob/master/LICENSE.txt)
 
 Summary: Utilities for Google Media Downloads and Resumable Uploads
 
+Development: https://github.com/googleapis/google-resumable-media-python
 
+Documentation: https://googleapis.github.io/google-resumable-media-python/latest/
 
 Current build status
 ====================
