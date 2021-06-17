@@ -18,7 +18,7 @@ requirements:
     - python
     - pip
   run:
-    - python >=3.5
+    - python >=3.6
     - six
     - google-crc32c >=1.0,<2.0dev
   run_constrained:
