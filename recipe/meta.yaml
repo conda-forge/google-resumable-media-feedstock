@@ -15,9 +15,8 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
-    - six
   run:
     - python >=3.6
     - google-crc32c >=1.0,<2.0.0dev
@@ -27,13 +26,12 @@ requirements:
 
 test:
   requires:
-    - python
     - pip
   imports:
     - google
     - google.resumable_media
   commands:
-    - python -m pip check
+    - pip check
 
 about:
   home: https://github.com/googleapis/google-resumable-media-python
