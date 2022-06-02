@@ -5,7 +5,7 @@ Home: https://github.com/googleapis/google-resumable-media-python
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-resumable-media-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-resumable-media-feedstock/blob/main/LICENSE.txt)
 
 Summary: Utilities for Google Media Downloads and Resumable Uploads
 
@@ -19,8 +19,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5587&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/google-resumable-media-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5587&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/google-resumable-media-feedstock?branchName=main">
       </a>
     </td>
   </tr>
@@ -151,4 +151,5 @@ Feedstock Maintainers
 * [@leahecole](https://github.com/leahecole/)
 * [@parthea](https://github.com/parthea/)
 * [@tswast](https://github.com/tswast/)
+* [@xylar](https://github.com/xylar/)
 
