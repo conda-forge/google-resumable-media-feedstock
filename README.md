@@ -148,7 +148,6 @@ Feedstock Maintainers
 =====================
 
 * [@johanneskoester](https://github.com/johanneskoester/)
-* [@leahecole](https://github.com/leahecole/)
 * [@parthea](https://github.com/parthea/)
 * [@tswast](https://github.com/tswast/)
 * [@xylar](https://github.com/xylar/)
