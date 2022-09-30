@@ -15,12 +15,13 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
   run:
-    - python >=3.6
+    - python >=3.7
     - google-crc32c >=1.0,<2.0.0dev
   run_constrained:
+    # extras
     - requests >=2.18.0,<3.0.0dev
     - aiohttp >=3.6.2,<4.0.0dev
 
@@ -46,6 +47,5 @@ extra:
   recipe-maintainers:
     - xylar
     - johanneskoester
-    - leahecole
     - parthea
     - tswast
