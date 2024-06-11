@@ -25,6 +25,7 @@ requirements:
     # extras
     - requests >=2.18.0,<3.0.0dev
     - aiohttp >=3.6.2,<4.0.0dev
+    - google-auth >=1.22.0,<2.0dev
 
 test:
   requires:
