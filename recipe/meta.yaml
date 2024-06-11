@@ -1,5 +1,5 @@
 {% set name = "google-resumable-media" %}
-{% set version = "2.7.0" %}
+{% set version = "2.7.1" %}
 
 package:
   name: google-resumable-media
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-resumable-media-{{ version }}.tar.gz
-  sha256: 5f18f5fa9836f4b083162064a1c2c98c17239bfda9ca50ad970ccf905f3e625b
+  sha256: eae451a7b2e2cdbaaa0fd2eb00cc8a1ee5e95e16b55597359cbc3d27d7d90e33
 
 build:
   number: 0
@@ -20,11 +20,12 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - google-crc32c >=1.0,<2.0.0dev
+    - google-crc32c >=1.0,<2.0dev
   run_constrained:
     # extras
     - requests >=2.18.0,<3.0.0dev
     - aiohttp >=3.6.2,<4.0.0dev
+    - google-auth >=1.22.0,<2.0dev
 
 test:
   requires:
