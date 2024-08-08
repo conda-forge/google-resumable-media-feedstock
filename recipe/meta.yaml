@@ -1,13 +1,13 @@
 {% set name = "google-resumable-media" %}
-{% set version = "2.7.1" %}
+{% set version = "2.7.2" %}
 
 package:
   name: google-resumable-media
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-resumable-media-{{ version }}.tar.gz
-  sha256: eae451a7b2e2cdbaaa0fd2eb00cc8a1ee5e95e16b55597359cbc3d27d7d90e33
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 5280aed4629f2b60b847b0d42f9857fd4935c11af266744df33d8074cae92fe0
 
 build:
   number: 0
