@@ -1,5 +1,5 @@
 {% set name = "google-resumable-media" %}
-{% set version = "2.7.2" %}
+{% set version = "2.8.0" %}
 
 package:
   name: google-resumable-media
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 5280aed4629f2b60b847b0d42f9857fd4935c11af266744df33d8074cae92fe0
+  sha256: f1157ed8b46994d60a1bc432544db62352043113684d4e030ee02e77ebe9a1ae
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv --no-deps --no-build-isolation
 
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - google-crc32c >=1.0,<2.0dev
+    - google-crc32c >=1.0.0,<2.0.0
   run_constrained:
     # extras
     - requests >=2.18.0,<3.0.0dev
