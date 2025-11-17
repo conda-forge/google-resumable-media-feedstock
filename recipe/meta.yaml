@@ -24,10 +24,10 @@ requirements:
     - google-crc32c >=1.0.0,<2.0.0
   run_constrained:
     # extras
-    - requests >=2.18.0,<3.0.0dev
-    - aiohttp >=3.6.2,<4.0.0dev
+    - requests >=2.18.0,<3.0.0
+    - aiohttp >=3.6.2,<4.0.0
     # omit google-auth because it causes downstream conflicts
-    # - google-auth >=1.22.0,<2.0dev
+    # - google-auth >=1.22.0,<2.0.0
 
 test:
   requires:
