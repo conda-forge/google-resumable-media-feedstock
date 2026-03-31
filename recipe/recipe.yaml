@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-resumable-media
-  version: "2.8.0"
+  version: "2.8.2"
 
 package:
   name: google-resumable-media
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: f1157ed8b46994d60a1bc432544db62352043113684d4e030ee02e77ebe9a1ae
+  sha256: f3354a182ebd193ae3f42e3ef95e6c9b10f128320de23ac7637236713b1acd70
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . --no-deps -vv --no-deps --no-build-isolation
 
@@ -28,6 +28,7 @@ requirements:
   run_constraints:
     - requests >=2.18.0,<3.0.0
     - aiohttp >=3.6.2,<4.0.0
+    - google-auth >=1.22.0,<2.0.0
 
 tests:
   - python:
@@ -41,8 +42,8 @@ about:
   summary: Utilities for Google Media Downloads and Resumable Uploads
   license: Apache-2.0
   license_file: LICENSE
-  homepage: https://github.com/googleapis/google-resumable-media-python
-  repository: https://github.com/googleapis/google-resumable-media-python
+  homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-resumable-media
+  repository: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-resumable-media
   documentation: https://googleapis.github.io/google-resumable-media-python/latest/
 
 extra:
