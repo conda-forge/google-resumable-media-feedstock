@@ -3,13 +3,13 @@ About google-resumable-media-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-resumable-media-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/google-resumable-media-python
+Home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-resumable-media
 
 Package license: Apache-2.0
 
 Summary: Utilities for Google Media Downloads and Resumable Uploads
 
-Development: https://github.com/googleapis/google-resumable-media-python
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-resumable-media
 
 Documentation: https://googleapis.github.io/google-resumable-media-python/latest/
 
