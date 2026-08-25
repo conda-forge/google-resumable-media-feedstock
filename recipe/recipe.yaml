@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-resumable-media
-  version: "2.10.1"
+  version: "2.10.2"
 
 package:
   name: google-resumable-media
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 224975032ddb73f7ed9e2f0f4cc08ed1b06874c52d48cc8533e3eb72980b21a0
+  sha256: 1de441703cd298d75a419bfdc0066e9fc7b0a1de630df96eea8ce8f5c759358c
 
 build:
   number: 0
